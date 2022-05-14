@@ -432,3 +432,12 @@ img.imgwidth {
 .hidden2{
     display: none;
 }
+
+
+.lstyle{
+    height: 3vh;
+    text-align: center;
+    font-size: 18px;
+    padding-top:40px;
+    padding-bottom: 50px;
+}
