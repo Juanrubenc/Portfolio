@@ -1,0 +1,434 @@
+/* ===================== Reset =========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #286F6C;
+}
+
+h3{
+    font-size: 16px;
+}
+
+body{
+    font-size: 16px;
+
+}
+
+.body2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ===================== Navegación =========================== */
+
+.menu a {
+    color: #717171;
+    text-align: end;
+    text-decoration: none;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.icon-menu{
+    color:#286F6C;
+}
+
+menu{
+    width: 100vh;
+    background-color: white;
+}
+
+.icon-right{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.menu-container{
+    background-color: #adadad;
+    width: 100vh;
+}
+.container{
+    background-color: #FEF2F2;
+}
+
+nav {
+    max-height: 100vh;
+    transition: max-height 1s;
+    background-color: #F9F5F2 ;
+}
+
+.menu-mov{
+    height: 100vh;
+}
+
+.hidden{
+    display: none;
+}
+
+/* ===================== Intro =========================== */
+.intro {
+    background-color: #FEF2F2;
+    min-height: 100%;
+}
+
+.icon-container {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #f26440;
+    border-radius: 50%;
+    line-height: 3.2;
+    text-align: center;
+    margin: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.p-relative{
+    position: relative;
+}
+
+
+.circle{
+    position: absolute;
+    width: 52vw;
+    height: 52vw;
+    background-color: #286F6C;
+    border-radius: 50%;
+    max-width: 100vw;
+    justify-content: flex-end;
+    left: 47%;
+    top: 35%;
+}
+
+.z-index1{
+    z-index: 1;
+}
+
+.z-index2{
+    z-index: 2;
+}
+
+/* Acerca de mi */
+
+.container2 {
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+    padding-top: 40px;
+    color: hsl(177, 47%, 30%);
+    padding-bottom: 50px;
+}
+
+.parrafo p{ 
+   padding-top: 15px;
+   color: #ADADAD;
+   padding-top: 30px;
+}
+
+
+/* Mis habilidades */
+.habilidades{
+    height: fit-content;
+}
+
+.circle1{
+    position: absolute;
+    width: 52vw;
+    height: 52vw;
+    background-color: #286f6b;
+    border-radius: 50%;
+    max-width: 100vw;
+    top: -100%;
+    left: -30%;
+}
+
+.circle2{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    background-color: #f26440;
+    border-radius: 50%;
+    max-width: 100vw;
+    top: 150%;
+    left: 2%;
+}
+
+.habilidades h2{
+    position: inherit;
+    z-index: 3;
+    color: rgb(255, 0, 0);
+    width: 80%;
+    margin: auto;
+}
+
+
+.span{
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    z-index: 3;
+    color: white;
+}
+
+.span2{
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    z-index: 3;
+    color: #286F6C;
+
+}
+
+.divi{
+    width: 90%;
+    margin: auto;
+}
+
+.z-index3{
+    z-index: 3;
+}
+
+#tarjetas4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: auto;
+}
+
+.card4{
+    margin-top: 15px;
+    margin-bottom: 5px; 
+    margin-right: 40px;
+    width: max-content;
+    padding: 30px 20px;
+    background-color: #FEF2F2;
+    text-align:start;
+    font-size: 16px;
+}
+
+
+/* #tarjetas4{
+    justify-content: center;
+    display: grid;
+    align-items: baseline;
+    align-content: center;
+    justify-items: end;
+} */
+
+
+.col3{
+width: 40%;
+}
+
+@media(min-width: 992px) {
+
+
+    .card-lg4{
+        margin-top: 20px;
+        margin-bottom: 5px; 
+        margin-right: 10px;
+        padding: 30px;
+        background-color: #FEF2F2;
+        text-align:start;
+        font-size: 16px;
+        width: min-content;
+    }    
+
+}
+
+
+/* experiencia */
+
+.cont80{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+
+}
+.divexp.col-4 {
+    text-align: center;
+}
+
+.exp-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+}
+
+.mrg{
+   margin-right:5px;
+}
+
+.divexp{
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    align-self: center;
+}
+
+.spanexp1{
+    font-size: 14;
+    color: #717171;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.spanexp2{
+    font-size: 12px;
+    color: #adadad;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+img.imgwidth {
+    width: 80%;
+    
+}
+
+/* Portafolio */
+
+#P-Style{
+    background-color: #286f6b;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 60vh;
+}
+
+.fwhite{
+    color: #F9F5F2;
+}
+
+
+.tarjeta{
+    position:relative;
+    background-color: white;
+    width: 90%;
+    margin:auto;
+    padding: 20px;
+    border-radius: 10px;
+    bottom: -110px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.296);
+}
+
+.tarjeta2{
+    position:relative;
+    background-color:white;
+    width: 90%;
+    margin:auto;
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 150px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.296);
+}
+
+
+#tittle{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 500;
+
+}
+
+
+/* Contacto */
+
+ .divcontacto{
+     display: flex;
+     flex-wrap: nowrap;
+     width: 100%;
+ }
+
+
+ .circulo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #f26440;
+    border-radius: 50%;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+
+.contactos{
+   margin-bottom: 5vh;
+}
+
+.circulo i{
+    font-size: 30px;
+    text-align: end;
+    color: white;
+}
+
+.divcenter{
+    align-items: center;
+}
+
+.container2c {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 40px;
+    color: hsl(177, 47%, 30%);
+    padding-bottom: 50px;
+    height: 30vh;
+}
+
+.circulo2{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    background-color: #f264407c;
+    border-radius: 50%;
+    margin: 5px;
+    left: 0%;
+}
+
+
+.hidden2{
+    display: none;
+}

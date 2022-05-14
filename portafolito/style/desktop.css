@@ -1,0 +1,308 @@
+@media(min-width: 992px) {
+    .lg-hide {
+        display: none;
+    }
+    .lg-show {
+        display: block;
+    }
+
+    section#aboutme {
+        margin-bottom: 5rem;}
+
+    .divi.container-2lg {
+        margin-top: 20px;
+    }
+    .menu-movlg{
+        max-height: none;
+        display: block;
+    }
+
+    #main-menu{
+        height: auto;
+        background-color: FEF2F2;
+    }
+
+    nav{
+        height: 0vh;
+        background-color: #FEF2F2;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+    
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+    body{
+        font-size: 18px;
+    }
+    .body2{
+        font-size: 20;
+        font-weight: 600;
+    }
+
+    .lg-padding{
+        padding-top: 20px;
+    }
+
+    #tarjetas{
+        width: 80%;
+    }
+
+    .w80{
+        width: 80%;
+    }
+
+
+
+    /* Navegacion */
+    .coin li {
+        display: inline-block;
+        padding: 15px 20px;
+    }
+
+    .display-flex-lg {
+        display: flex;
+    
+    }
+
+    .display-flex-lg-nw {
+        display: flex;
+        flex-wrap: nowrap;
+    
+    }
+    
+    .justify-content-end-lg{
+        justify-content: flex-end;
+    }
+
+
+    .circle-lg{
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background-color: #286F6C;
+        border-radius: 50%;
+        display: flex;
+        justify-content: flex-end;
+        left: 52%;
+        top: 16%;
+    
+    }
+
+    .separacion-lg{
+        padding-top: 50px;
+    }
+
+    .circle1{
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background-color: #286f6bef;
+        border-radius: 50%;
+        max-width: 60vw;
+        left: -8rem;
+        top: -3rem;
+    }
+    
+    .circle2{
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+        background-color: #f26440;
+        border-radius: 50%;
+        max-width: 60vw;
+        top: 16rem;
+        left: 17rem;
+    }
+
+    section.habilidades {
+        margin-bottom: 8rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    .tab-100{
+        width: 100%;
+    }
+}
+
+
+@media(min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg3{
+        width: 25%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-8 {
+        width: 66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    .row2{
+        display: flex;
+       
+    }
+
+    .container-2lg{
+        width: 60%;
+        margin: auto;
+        height: 90px;
+    }
+    .container-3lg{
+        width: 80%;
+        margin: auto;
+        background-color:grey;
+    }
+
+    section#aboutme {
+    margin-top: 2rem;
+    }
+    section#aboutme {
+        margin-top: 2rem;
+    }
+
+
+    /* Mis Habilidades Contenedor */
+
+    .divi.container-2lg {
+        margin-top: 120px;
+    }
+
+    #tarjetas4{
+        width: 80%;
+        margin: auto;
+    }
+
+ 
+    /* .card-lg4{
+        margin-top: 20px;
+        margin-bottom: 5px; 
+        margin-right: 10px;
+        padding: 30px;
+        background-color: #FEF2F2;
+        text-align:start;
+        font-size: 16px;
+        width: min-content;
+    }     */
+
+    /* portafolio  */
+ 
+
+
+.tarjeta1lg{
+    position:relative;
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    bottom: -110px;
+    box-shadow:3px 3px rgba(0, 0, 0, 0.121);
+    right: 400px;
+}
+
+.tarjeta2lg{
+    position:relative;
+    background-color:white;
+    width: 30%;
+    margin:auto;
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 120px;
+    box-shadow:3px 3px rgba(0, 0, 0, 0.121);
+    left: 30%;
+}
+
+.portafolioflex{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#P-Style {
+    background-color: #286f6b;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 60vh;
+    justify-content: flex-end;
+}
+
+
+    .fit{
+        width: fit-content;
+    }
+/* contactos */
+
+    .divcontacto {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        flex-direction: row;
+        margin: auto;
+        align-content: center;
+    }
+
+
+ .circulo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #f26440;
+    border-radius: 50%;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.circulo i{
+    font-size: 50px;
+    text-align: end;
+    color: white;
+}
+
+.container2c {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 40px;
+    color: hsl(177, 47%, 30%);
+    padding-bottom: 50px;
+    height: 40vh;
+}
+
+.circulo2{
+    position: absolute;
+    display: flex;
+    width: 30vh;
+    height: 30vh;
+    background-color: #f264407c;
+    border-radius: 50%;
+    margin: 5px;
+    left: 0%;
+}
+
+.divcontacto{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 40%;
+}
+}
+
